@@ -5,8 +5,6 @@ Write-host "(--> Getting things done... please wait!! <--)"
 Write-host "(-->1v5<--)"
 Write-host ""
 
-$SettingsREPO = "https://raw.githubusercontent.com/Majoramari/VoipBypasser/master/settings.json"
-$routeREPO = "https://raw.githubusercontent.com/Majoramari/VoipBypasser/master/route.bat"
 try {
     $Settings = Get-Content -Path $pwd"\settings.json" -erroraction stop | ConvertFrom-Json 
 }
